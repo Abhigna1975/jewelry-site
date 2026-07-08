@@ -1,0 +1,98 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body { overflow-x: hidden; }
+.sec1-t2, .sec2-t2, h1, h2 { max-width: 100%; }
+
+footer
+{
+    width: 100%;
+    background-color: #1b1b1b;
+    padding: 100px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-top {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 60px;
+}
+
+.footer-logo
+{
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+}
+
+.footer-logo1
+{
+    color: rgb(255, 255, 255);
+}
+
+.footer-logo2
+{
+    color: #B8860B;
+}
+
+.footer-ul
+{
+    line-height: 2rem;
+    list-style: none;
+    font-size: 0.95rem;
+    font-weight: 100;
+    flex: 5;
+}
+
+.footer-head
+{
+    color: #B8860B;
+    font-size: 0.95rem;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+}
+
+.footer-text
+{
+    color: #a08877;
+    width: 90%;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.footer-element
+{
+    color: #C4B5A5;
+}
+
+.footer-line
+{
+    height: 0px;
+    border: 0.1px solid rgba(255, 255, 255, 0.116); 
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.footer-left
+{
+    color: #a08877;
+    font-size: 0.9rem;
+}
+
+.footer-right
+{
+    margin-left: 46.5rem;
+}
+
+.footer-r 
+{
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+}

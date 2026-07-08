@@ -1,0 +1,146 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body { overflow-x: hidden; }
+.sec1-t2, .sec2-t2, h1, h2 { max-width: 100%; }
+
+.sec5-container
+{
+    background-color: #F7F3ED;
+    padding-left: 50px;
+    height: 950px;
+}
+
+.sec5-text
+{
+    width: 500px;
+}
+
+.sec5-t1
+{
+    font-size: 15px;
+    color: rgba(150, 113, 67, 0.698);
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 150px;
+}
+
+.sec5-t2
+{
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+    width: 500px;
+}
+
+.sec5-t3
+{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.sec5-t3-1
+{
+    margin-left: 20px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    list-style-type: "-  " ;
+}
+
+
+.sec5-btn
+{
+    background-color: black;
+    padding: 20px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sec5-btn:hover
+{
+    background-color: #9e7e4f;
+    color: #ffffff;
+    border: none;
+}
+
+.sec5-box
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 150px;
+    width: 700px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 350px;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.item 
+{
+    display: flex;
+    flex-direction: column; /* number on top, text below */
+    align-items: center;
+    margin-top: 150px;
+}
+
+.sec5-t4
+{
+    display: block;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(145, 109, 54);
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+}
+
+.sec5-t5
+{
+    display: block;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(141, 109, 61);
+    font-weight: 200;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec5-imgs
+{
+    display: flex;
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: -540px;
+    margin-left: 600px;
+}
+
+.sec5-img1
+{
+    justify-content: space-around;
+    height: 450px;
+    width: 750px;
+}
+

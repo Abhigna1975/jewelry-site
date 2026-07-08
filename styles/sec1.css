@@ -1,0 +1,132 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body { overflow-x: hidden; }
+.sec1-t2, .sec2-t2, h1, h2 { max-width: 100%; }
+
+body
+{
+    background-color: #FFFBF5;
+}
+
+.sec1-container
+{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.sec1-image
+{
+    width: 55%;
+    overflow: hidden;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100vh;
+    z-index: 1;
+}
+
+nav
+{
+    position: relative;
+}
+
+.sec1-img1
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(10deg) scale(1.3);
+    transition: opacity 1s ease-in-out;
+}
+
+/* .sec-img1 { animation: show 5s infinite 0s; }
+.sec-img2 { animation: show 5s infinite 3s; }
+.sec-img3 { animation: show 5s infinite 6s; }
+
+@keyframes show {
+    0% { opacity: 1; }
+    33% { opacity: 0; }
+    100% { opacity: 0; }
+} */
+
+.section1
+{
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sec1-t1
+{
+    margin-top: -15rem;
+    color: rgb(149, 133, 110);
+    font-size: 0.85rem;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'DM Sans', -apple-system, sans-serif;
+}
+
+.sec1-t2
+{
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 100;
+    font-size: 4rem;
+    letter-spacing: 0.15rem;
+    width: 22.5rem;
+}
+
+.art
+{
+    color: #B8860B;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0rem;
+    font-weight: 100;
+}
+
+.sec1-t3
+{
+    width: 24rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.03rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec1-t4
+{
+    text-decoration: none;
+    padding: 20px 30px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+    color: #fef7f7;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+}
+
+.sec1-t5
+{
+    text-decoration: none;
+    padding: 20px 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+.sec1-t4:hover
+{
+    background-color: #9e7e4f;
+    color: #ffffff;
+    border: none;
+}

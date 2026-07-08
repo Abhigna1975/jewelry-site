@@ -1,0 +1,141 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body { overflow-x: hidden; }
+.sec1-t2, .sec2-t2, h1, h2 { max-width: 100%; }
+
+.sec2-container
+{
+    display: flex;
+    background-color: #F7F3ED;
+    margin-top: 0%;
+    padding: 150px 70px;
+    display: flex;
+}
+
+
+.sec2-img
+{
+    transition: all 1s;
+    height: 900px;
+    width: 88.5%;
+    position: relative;
+}
+
+.sec2-btn1
+{
+    background-color: #B8860B;
+    padding: 10px 17px;
+    letter-spacing: 1px;
+    color: rgb(255, 240, 221);
+    height: 35px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 0.7rem; 
+    position: absolute;
+    margin-left: -710px;
+    margin-top: 30px;
+}
+
+.sec2-btn2:hover
+{
+    background-color: #9e7e4f;
+    color: #ffffff;
+    border: none;
+}
+
+.sec2-text
+{
+    text-align: left;
+    /* padding-right: 100px; */
+    margin-top: 350px;
+    width: 700px;
+}
+
+.sec2-t1
+{
+    margin-top: -15rem;
+    color: rgb(149, 133, 110);
+    font-size: 0.85rem;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'DM Sans', -apple-system, sans-serif;
+}
+
+.sec2-t2
+{
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 100;
+    font-size: 4rem;
+    letter-spacing: 0.15rem;
+    width: 28rem;
+}
+
+.art
+{
+    color: #B8860B;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0rem;
+    font-weight: 100;
+}
+
+.sec2-t3
+{
+    width: 24rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.03rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 28rem;
+}
+
+.sec2-t4
+{
+    text-decoration: none;
+    padding: 20px 30px;
+    width: 28rem;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 2.5rem;
+    color: #6045017d;
+    font-weight: 100;
+}
+
+.sec2-t5
+{
+    text-decoration: none;
+    padding: 20px 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    list-style-type: none;
+    text-align: right;
+    margin-top: -155px;
+    line-height: 2.5rem;
+    width: 28rem;
+
+}
+
+.sec2-t6
+{
+    font-family: Cormorant Garamond ;
+    color: #956b00;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.sec2-btn2
+{
+    padding: 20px 30px;
+    background-color: black;
+    color: #F7F3ED;
+    font-size: 15px;
+    font-weight: 100;
+}
